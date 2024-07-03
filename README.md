@@ -7,6 +7,16 @@ Boston, Massachusetts, is a dynamic metropolitan area characterized by its diver
 
 In this current data era, house prices can be predicted accurately by leveraging data-driven analytical and machine-learning approaches. Therefore, this project aimed to estimate the median prices of owner-occupied homes in Boston by taking into account influencing socio-economic and environmental factors.
 
+**Analysis**
+
+Boston house price prediction was conducted using machine learning techniques. Initially, data variance and correlation analyses were employed to reduce non-important and redundant variables. Outliers were treated using the Winsorizing method. Subsequently, the data was split into training and testing sets in an 80-20 ratio, and both sets were scaled. Following this, four different regression models—linear regression, random forest, support vector machine, and gradient boosting—were trained. Hyperparameters were tuned using grid search with cross-validation. The performances of these models on the test set are summarized below.
+| Regression Model              | Mean Squared Error | R-squared | Maximum Error |
+|-------------------------------|--------------------|-----------|---------------|
+| Linear Regression             | 31.52              | 0.57      | 19.2          |
+| Random Forest Regressor       | 17.64              | 0.76      | 24.63         |
+| Support Vector Regressor      | 31.64              | 0.57      | 32.4          |
+| Gradient Boosting Regressor   | 17.00              | 0.77      | 25.17         |
+
 
 **Findings**
 
