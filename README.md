@@ -10,6 +10,25 @@ In this current data era, house prices can be predicted accurately by leveraging
 
 **Project Scope:**
 
+The project aims a develop regression model with can predict Boston house prices by following steps:
+
+1. Dataset
+     Downloaded Boston Housing dataset from Kaggle (https://www.kaggle.com/datasets/vikrishnan/boston-house-prices).
+
+2. Exploratory Data Analysis:
+      Understood the dataset and their inter-relationship.
+	  
+	  
+3. Feature selection and Hyper-parameters Tuning
+
+
+4. Training models
+
+
+5. Model Interpretation
+	  
+
+
 
 
 
